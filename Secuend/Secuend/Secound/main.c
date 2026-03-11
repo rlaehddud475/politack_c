@@ -3,25 +3,29 @@
 
 
 int main(void){
-    int a, b,c ,d;
+    int a, b;
     int result;
+    int k;
+   
+    
     printf("첫 번째 계산할 값을 입력하세요=>");
     scanf("%d",&a);
+    printf("<1> 덧셈 <2> 뺄샘 <3> 곱샘 <4> 나눗샘==>");
+    scanf("%d",&k);
     printf("두 번째 계산할 값을 입력하세요=>");
     scanf("%d",&b);
-   
-    printf("세 번째 계산할 값을 입력하세요=>");
-    scanf("%d",&c);
-    printf("네 번째 계산할 값을 입력하세요=>");
-    scanf("%d",&d);
-    
-    result=a+b+c+d;
-    printf("%d + %d + %d + %d = %d\n",a,b,c,d,result);
-    result=a-b-c-d;
-    printf("%d - %d - %d - %d = %d\n",a,b,c,d,result);
-    result=a*b*c*d;
-    printf("%d * %d * %d * %d = %d\n",a,b,c,d,result);
-    result=a/b/c/d;
-    printf("%d / %d / %d / %d = %d\n",a,b,c,d,result);
   
+    if (k==1) {
+        result=a+b;
+        printf("%d + %d = %d\n",a,b,result);
+    }else if(k==2){
+        result=a-b;
+        printf("%d - %d = %d\n",a,b,result);
+    }else if (k==3){
+        result=a*b;
+        printf("%d * %d  = %d\n",a,b,result);
+    }else{
+        result=a/b;
+        printf("%d / %d = %d\n",a,b,result);
+    }
 }
