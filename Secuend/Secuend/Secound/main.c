@@ -1,22 +1,27 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+
+
 int main(void){
-    int a, b;
+    int a, b,c ,d;
     int result;
+    printf("첫 번째 계산할 값을 입력하세요=>");
+    scanf("%d",&a);
+    printf("두 번째 계산할 값을 입력하세요=>");
+    scanf("%d",&b);
+   
+    printf("세 번째 계산할 값을 입력하세요=>");
+    scanf("%d",&c);
+    printf("네 번째 계산할 값을 입력하세요=>");
+    scanf("%d",&d);
     
-    a=100;
-    b=50;
-    
-    result=a+b;
-    printf("%d + %d = %d\n",a,b,result);
-    
-    result=a-b;
-    printf("%d - %d = %d\n",a,b,result);
-    
-    result=a*b;
-    printf("%d * %d = %d\n",a,b,result);
-    
-    result=a/b;
-    printf("%d / %d = %d\n",a,b,result);
- 
+    result=a+b+c+d;
+    printf("%d + %d + %d + %d = %d\n",a,b,c,d,result);
+    result=a-b-c-d;
+    printf("%d - %d - %d - %d = %d\n",a,b,c,d,result);
+    result=a*b*c*d;
+    printf("%d * %d * %d * %d = %d\n",a,b,c,d,result);
+    result=a/b/c/d;
+    printf("%d / %d / %d / %d = %d\n",a,b,c,d,result);
   
 }
