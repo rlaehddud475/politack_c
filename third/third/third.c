@@ -38,8 +38,21 @@ int main(void){
 //    result=a/b;
 //    result=(float)a/(float)b;
 //    printf("%2.1f \n", result);
-    float a =0.1234567890123456789012345f;
-    double b = 0.1234567890123456789012345;
-    printf("%30.25f \n",a);
-    printf("%30.25lf \n",b);
+//    float a =0.1234567890123456789012345f;
+//    double b = 0.1234567890123456789012345;
+//    printf("%30.25f \n",a);
+//    printf("%30.25lf \n",b);
+    char a,b,c;
+    
+    a = 'A';
+    printf("%c \n",a);
+    printf("%d \n",a);
+    
+    b='a';
+    c=b+5;
+    printf("%c \n",b);
+    printf("%c \n",c);
+    
+    c=90;
+    printf("%c \n",c);
 }
