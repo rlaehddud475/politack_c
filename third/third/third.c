@@ -37,6 +37,6 @@ int main(void){
     float result;
 //    result=a/b;
     result=(float)a/(float)b;
-    printf("%f \n", result);
+    printf("%2.1f \n", result);
     
 }
