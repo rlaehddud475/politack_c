@@ -33,10 +33,13 @@ int main(void){
     //    a=100;
     //    a=a+200;
     //    printf("a의 값 ==> %d\n", a);
-    int a=100,b=200;
-    float result;
+//    int a=100,b=200;
+//    float result;
 //    result=a/b;
-    result=(float)a/(float)b;
-    printf("%2.1f \n", result);
-    
+//    result=(float)a/(float)b;
+//    printf("%2.1f \n", result);
+    float a =0.1234567890123456789012345f;
+    double b = 0.1234567890123456789012345;
+    printf("%30.25f \n",a);
+    printf("%30.25lf \n",b);
 }
