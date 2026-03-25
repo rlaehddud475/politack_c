@@ -56,12 +56,24 @@ int main(void){
 //    
 //    c=90;
 //    printf("%c \n",c);
-    char str1[10];
-    char str2[10];
-    char str3[10]="CookBook";
-    strcpy(str1, "Basic-C");
-    strcpy(str2, str3);
-    printf("str1 ==> %s \n",str1);
-    printf("str2 ==> %s \n",str2);
-    printf("str3 ==> %s \n",str3);
+//    char str1[10];
+//    char str2[10];
+//    char str3[10]="CookBook";
+//    strcpy(str1, "Basic-C");
+//    strcpy(str2, str3);
+//    printf("str1 ==> %s \n",str1);
+//    printf("str2 ==> %s \n",str2);
+//    printf("str3 ==> %s \n",str3);
+    char str[10] = "0123456789";
+    printf("str ==> %s \n", str);
+    str[0] = 'I';
+    str[1] = 'T';
+    str[2] = 'C';
+    str[3] = 'o';
+    str[4] = 'o';
+    str[5] = 'k';
+    str[6] = '\0';
+    printf("str ==> %s \n", str);
+    printf("str[7] ==> %c \n", str[7]);
+    printf("str[50] ==> %c \n", str[50]);
 }
