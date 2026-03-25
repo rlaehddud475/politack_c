@@ -23,21 +23,27 @@ int main(void) {
 //    float result2;
 //    result2=a*b/(float)c;
 //    printf("%d * %d / %d = %4.1f\n",a,b,c,result2);
-    int a=10;
-    a++;
-    printf("a++ ==> %d \n",a);
-    a--;
-    printf("a-- ==> %d \n",a);
-    a+=5;
-    printf("a+=5 ==> %d \n",a);
-    a-=5;
-    printf("a-=5 ==> %d \n",a);
-    a*=5;
-    printf("a*=5 ==> %d \n",a);
-    a/=5;
-    printf("a/=5 ==> %d \n",a);
-    a%=5;
-    printf("a %%=5 ==> %d \n",a);
+    int a=10,b;
+    
+    b=a++;
+    printf("%d\n",b);
+  
+    b=++a;
+    printf("%d \n",b);
+//    a++;
+//    printf("a++ ==> %d \n",a);
+//    a--;
+//    printf("a-- ==> %d \n",a);
+//    a+=5;
+//    printf("a+=5 ==> %d \n",a);
+//    a-=5;
+//    printf("a-=5 ==> %d \n",a);
+//    a*=5;
+//    printf("a*=5 ==> %d \n",a);
+//    a/=5;
+//    printf("a/=5 ==> %d \n",a);
+//    a%=5;
+//    printf("a %%=5 ==> %d \n",a);
     
     
 }
