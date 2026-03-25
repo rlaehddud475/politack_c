@@ -8,16 +8,20 @@
 #include <stdio.h>
 
 int main(void) {
-    int a,b=5,c=3;
-    a=b+c;
-    printf("%d + %d = %d\n",b,c,a);
-    a=b-c;
-    printf("%d - %d = %d\n",b,c,a);
-    a=b*c;
-    printf("%d * %d = %d\n",b,c,a);
-    a=b/c;
-    printf("%d / %d = %d\n",b,c,a);
-    a=b%c;
-    printf("%d %% %d = %d\n",b,c,a);
+//    int a,b=5,c=3;
+//    a=b+c;
+//    printf("%d + %d = %d\n",b,c,a);
+//    a=b-c;
+//    printf("%d - %d = %d\n",b,c,a);
+//    a=b*c;
+//    printf("%d * %d = %d\n",b,c,a);
+//    a=b/c;
+//    printf("%d / %d = %d\n",b,c,a);
+//    a=b%c;
+//    printf("%d %% %d = %d\n",b,c,a);
+    int a =2,b=3,c=4;
+    float result2;
+    result2=a*b/(float)c;
+    printf("%d * %d /%d = %f\n",a,b,c,result2);
    
 }
