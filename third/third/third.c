@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 int main(void){
     //    printf("%d\n",123);
     //    printf("%5d\n",123);
@@ -42,17 +43,25 @@ int main(void){
 //    double b = 0.1234567890123456789012345;
 //    printf("%30.25f \n",a);
 //    printf("%30.25lf \n",b);
-    char a,b,c;
-    
-    a = 'A';
-    printf("%c \n",a);
-    printf("%d \n",a);
-    
-    b='a';
-    c=b+5;
-    printf("%c \n",b);
-    printf("%c \n",c);
-    
-    c=90;
-    printf("%c \n",c);
+//    char a,b,c;
+//    
+//    a = 'A';
+//    printf("%c \n",a);
+//    printf("%d \n",a);
+//    
+//    b='a';
+//    c=b+5;
+//    printf("%c \n",b);
+//    printf("%c \n",c);
+//    
+//    c=90;
+//    printf("%c \n",c);
+    char str1[10];
+    char str2[10];
+    char str3[10]="CookBook";
+    strcpy(str1, "Basic-C");
+    strcpy(str2, str3);
+    printf("str1 ==> %s \n",str1);
+    printf("str2 ==> %s \n",str2);
+    printf("str3 ==> %s \n",str3);
 }
