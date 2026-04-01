@@ -45,13 +45,16 @@ int main(void) {
 //    a%=5;
 //    printf("a %%=5 ==> %d \n",a);
     
-    printf("10&7 = %d \n", 10&7);
-    printf("123&456 = %d \n", 123&456);
-    printf("0xFFFF&0000 = %d \n", 0xFFFF&0000);
-    printf("10|7 = %d \n", 10|7);
-    printf("123|456 = %d \n", 123|456);
-    printf("0xFFFF&|0000 = %d \n", 0xFFFF|0000);
-    printf("10^7 = %d \n", 10^7);
-    printf("123^456 = %d \n", 123^456);
-    printf("0xFFFF&0000 = %d \n", 0xFFFF^0000);
+//    printf("10&7 = %d \n", 10&7);
+//    printf("123&456 = %d \n", 123&456);
+//    printf("0xFFFF&0000 = %d \n", 0xFFFF&0000);
+//    printf("10|7 = %d \n", 10|7);
+//    printf("123|456 = %d \n", 123|456);
+//    printf("0xFFFF&|0000 = %d \n", 0xFFFF|0000);
+//    printf("10^7 = %d \n", 10^7);
+//    printf("123^456 = %d \n", 123^456);
+//    printf("0xFFFF&0000 = %d \n", 0xFFFF^0000);
+//    int a= 12345;
+//    printf("%d \n", ~a+1);
+    
 }
