@@ -36,9 +36,20 @@ int main(void) {
 //    for (i=1; i<=9; i++) {
 //        printf("%d X %d = %d \n",dan,i,dan*i);
 //            }
-    for (i=2; i<=9; i++) {
-        printf("## %d 단 ## \n",i);
-        for (k=1; k<=9; k++) {
-            printf("%2d X %2d = %2d \n",i,k,i*k);
-        }   printf("\n"); }
+//    for (i=1; i<=9; i++) {
+////        printf("## %d 단 ## \n",i);
+//        for (k=2; k<=9; k++) {
+//            printf("%2d X %2d = %2d ",k,i,k*i);
+//        }   printf("\n"); }
+    int a,b;
+//    i=0;
+//    for (; ; ) {
+//        printf("%d \n" , i);
+//        i++;
+//    }
+    for(; ; ){
+        printf("더할 두 수를 입력 (멈추려면 Ctrl+C) : ");
+        scanf("%d %d", &a,&b);
+        printf("%d + %d = %d\n" ,a,b,a+b);
+    }
 }
