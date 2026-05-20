@@ -1,8 +1,8 @@
 //
 //  main.c
-//  ninth
+//  tenth
 //
-//  Created by 김동영 on 5/13/26.
+//  Created by 김동영 on 5/20/26.
 //
 
 #include <stdlib.h>
