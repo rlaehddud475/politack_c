@@ -1,0 +1,23 @@
+export Java_HOME= /Library/Java/JavaVirtualMachines/jdk-25.jdk/Contents/Home
+export PATH=${PATH}:/Library/Java/VirtualMachines/jdk-25.jdk/Contents/Home
+export PYTHON_PATH=/usr/local/bin/python3
+export PATH=$PYTHON_PATH:$PATH	
+alias python="python3"
+
+export TF_ENABLE_ONEDIN_OPTS=0
+export TF_CPP_MIN_LOG_LEVEL=2
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/opt/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
